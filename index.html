@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>chayaya</title>
+  <meta name="description" content="写给同样在用 AI 干活的人。工具实测、工作流，以及一个想法怎么变成能用的东西。">
+  <meta property="og:title" content="chayaya">
+  <meta property="og:description" content="写给同样在用 AI 干活的人。工具实测、工作流，以及一个想法怎么变成能用的东西。">
+  <meta property="og:url" content="https://chayaya.com">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%231c1917'/><text x='50%' y='54%' text-anchor='middle' dominant-baseline='middle' font-family='Georgia,serif' font-size='28' fill='%23f5f0e8'>c</text></svg>">
+  <style>
+    :root {
+      --bg: #f4efe6;
+      --ink: #1c1917;
+      --muted: #57534e;
+      --line: rgba(28, 25, 23, 0.12);
+      --accent: #1c1917;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body { height: 100%; }
+
+    body {
+      font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", ui-sans-serif, system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    main {
+      min-height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 4.5rem 1.5rem;
+    }
+
+    .page {
+      width: min(36rem, 100%);
+    }
+
+    .mark {
+      font-family: Georgia, "Times New Roman", "Songti SC", "STSong", serif;
+      font-size: 0.95rem;
+      letter-spacing: 0.14em;
+      text-transform: lowercase;
+      font-weight: 400;
+      color: var(--ink);
+    }
+
+    .rule {
+      width: 2.5rem;
+      height: 1px;
+      background: var(--ink);
+      opacity: 0.35;
+      margin: 2.25rem 0 2rem;
+      border: 0;
+    }
+
+    h1 {
+      font-size: clamp(1.35rem, 2.4vw, 1.6rem);
+      font-weight: 500;
+      letter-spacing: 0.01em;
+      line-height: 1.45;
+    }
+
+    p {
+      margin-top: 1.15rem;
+      color: var(--muted);
+      font-size: 1.02rem;
+    }
+
+    .x-link {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 0.45rem;
+      margin-top: 2.4rem;
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 1.02rem;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 0.12rem;
+      transition: border-color 0.2s ease, opacity 0.2s ease;
+    }
+
+    .x-link:hover,
+    .x-link:focus-visible {
+      border-bottom-color: var(--ink);
+      outline: none;
+    }
+
+    .handle {
+      color: var(--muted);
+    }
+
+    footer {
+      margin-top: 5rem;
+      color: #a8a29e;
+      font-size: 0.8rem;
+      letter-spacing: 0.02em;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article class="page">
+      <div class="mark">chayaya</div>
+      <hr class="rule">
+      <h1>写给同样在用 AI 干活的人。</h1>
+      <p>我会在这里，以及在 X 上分享：工具实测、实际工作流，还有一个想法怎么变成能用的东西。不写空评测，尽量写我亲手用过的。</p>
+      <a class="x-link" href="https://x.com/caida7777">在 X 上看更新 <span class="handle">@caida7777</span></a>
+    </article>
+  </main>
+</body>
+</html>
